@@ -27,7 +27,7 @@ export default function Home() {
         <Links searchQuery={searchQuery} />
         <Products searchQuery={searchQuery} />
         <Projects searchQuery={searchQuery} />
-        <CalWidget />
+        
         <Footer />
       </div>
     </main>
