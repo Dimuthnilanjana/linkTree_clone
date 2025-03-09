@@ -8,6 +8,7 @@ import Projects from '@/components/projects';
 import Footer from '@/components/footer';
 import ThemeToggle from '@/components/theme-toggle';
 import Search from '@/components/search';
+import CalWidget from "@/components/CalWidget";
 
 export default function Home() {
   const [searchQuery, setSearchQuery] = useState('');
@@ -26,6 +27,7 @@ export default function Home() {
         <Links searchQuery={searchQuery} />
         <Products searchQuery={searchQuery} />
         <Projects searchQuery={searchQuery} />
+        <CalWidget />
         <Footer />
       </div>
     </main>
