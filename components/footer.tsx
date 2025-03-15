@@ -34,7 +34,7 @@ export default function Footer() {
       </div>
       <div className="text-sm text-muted-foreground">
         <p>© 2025 Dimuth Nilanjana. All rights reserved.</p>
-        <p className="mt-1">Made with ❤️ by</p><a href="https://dimuthnilanjana.com" className="text-decorations-none"> Dimuth Nilanjana</a>
+        <p className="mt-1">Made  by</p><a href="https://dimuthnilanjana.com" className="text-decorations-none"> Dimuth Nilanjana</a>
       </div>
     </motion.footer>
   );
