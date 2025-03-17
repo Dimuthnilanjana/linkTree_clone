@@ -11,13 +11,13 @@ interface LinksProps {
 const links = [
   {
     title: "Portfolio Website",
-    url: "https://dimuth.dev",
+    url: "https://dimuthnilanjana.com",
     icon: Globe,
     style: "glass"
   },
   {
     title: "GitHub",
-    url: "https://github.com/dimuth",
+    url: "https://github.com/Dimuthnilanjana",
     icon: Github,
     style: "outline"
   },
@@ -25,7 +25,7 @@ const links = [
     title: "Twitter",
     url: "https://twitter.com/dimuth",
     icon: Twitter,
-    style: "gradient"
+    style: "glass"
   },
   {
     title: "LinkedIn",
