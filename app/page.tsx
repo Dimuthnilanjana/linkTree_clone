@@ -23,10 +23,10 @@ export default function Home() {
       <div className="max-w-2xl mx-auto space-y-8 px-4 py-12 relative">
         <ThemeToggle />
         <Profile />
-        <Search onSearch={handleSearch} />
+        {/* <Search onSearch={handleSearch} /> */}
         <Links searchQuery={searchQuery} />
-        <Products searchQuery={searchQuery} />
-        <Projects searchQuery={searchQuery} />
+        {/* <Products searchQuery={searchQuery} />
+        <Projects searchQuery={searchQuery} /> */}
         
         <Footer />
       </div>

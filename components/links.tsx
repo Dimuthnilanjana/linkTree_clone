@@ -11,21 +11,21 @@ interface LinksProps {
 const links = [
   {
     title: "Portfolio Website",
-    url: "https://dimuth.dev",
+    url: "https://dimuthnilanjana.com",
     icon: Globe,
     style: "glass"
   },
   {
     title: "GitHub",
-    url: "https://github.com/dimuth",
+    url: "https://github.com/Dimuthnilanjana",
     icon: Github,
     style: "outline"
   },
   {
     title: "Twitter",
-    url: "https://twitter.com/dimuth",
+    url: "https://x.com/DimuthNilanjana",
     icon: Twitter,
-    style: "gradient"
+    style: "glass"
   },
   {
     title: "LinkedIn",
@@ -41,7 +41,7 @@ const links = [
   },
   {
     title: "Contact Me",
-    url: "mailto:hello@dimuth.dev",
+    url: "mailto:dimuthnilanjana,official@gmail.com",
     icon: Mail,
     style: "gradient"
   }

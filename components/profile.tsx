@@ -29,8 +29,9 @@ export default function Profile() {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.2 }}
-        className="text-3xl font-bold tracking-tight bg-gradient-to-r from-primary via-primary/80 to-primary bg-clip-text text-transparent"
+        className="text-3xl font-bold tracking-tight bg-gradient-to-r from-primary via-primary/80 to-primary bg-clip-text text-transparent flex items-center justify-center gap-2"
       >
+       
         Dimuth Nilanjana
       </motion.h1>
       <motion.p

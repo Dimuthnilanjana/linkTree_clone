@@ -32,9 +32,16 @@ export default function Footer() {
           </Link>
         ))}
       </div>
-      <div className="text-sm text-muted-foreground">
+      <div className="text-sm text-muted-foreground flex items-center justify-center gap-1">
         <p>© 2025 Dimuth Nilanjana. All rights reserved.</p>
-        <p className="mt-1">Made with ❤️ by</p><a href="https://dimuthnilanjana.com" className="text-decorations-none"> Dimuth Nilanjana</a>
+      </div>
+      <div className="text-sm text-muted-foreground flex items-center justify-center gap-2">
+        <p>Made with Dimuth Nilanjana</p>
+        <motion.span
+          className="w-2.5 h-2.5 bg-green-500 rounded-full inline-block"
+          animate={{ scale: [1, 1.4, 1], opacity: [1, 0.6, 1] }}
+          transition={{ duration: 1, repeat: Infinity, ease: "easeInOut" }}
+        />
       </div>
     </motion.footer>
   );
