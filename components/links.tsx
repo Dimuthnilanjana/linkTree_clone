@@ -23,7 +23,7 @@ const links = [
   },
   {
     title: "Twitter",
-    url: "https://twitter.com/dimuth",
+    url: "https://x.com/DimuthNilanjana",
     icon: Twitter,
     style: "glass"
   },
@@ -41,7 +41,7 @@ const links = [
   },
   {
     title: "Contact Me",
-    url: "mailto:hello@dimuth.dev",
+    url: "mailto:dimuthnilanjana,official@gmail.com",
     icon: Mail,
     style: "gradient"
   }
