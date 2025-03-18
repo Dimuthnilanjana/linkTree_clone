@@ -36,7 +36,7 @@ export default function Footer() {
         <p>© 2025 Dimuth Nilanjana. All rights reserved.</p>
       </div>
       <div className="text-sm text-muted-foreground flex items-center justify-center gap-2">
-        <p>Made with ❤️ by Dimuth Nilanjana</p>
+        <p>Made with Dimuth Nilanjana</p>
         <motion.span
           className="w-2.5 h-2.5 bg-green-500 rounded-full inline-block"
           animate={{ scale: [1, 1.4, 1], opacity: [1, 0.6, 1] }}
