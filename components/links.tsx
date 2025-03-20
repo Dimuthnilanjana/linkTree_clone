@@ -43,7 +43,7 @@ const links = [
     title: "Contact Me",
     url: "mailto:dimuthnilanjana,official@gmail.com",
     icon: Mail,
-    style: "glass"
+    style: "glass" //gradient
   }
 ];
 
