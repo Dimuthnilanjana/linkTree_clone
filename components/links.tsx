@@ -37,7 +37,7 @@ const links = [
     title: "YouTube Channel",
     url: "https://youtube.com/@dimuth",
     icon: Youtube,
-    style: "outline"
+    style: "outline" //outline
   },
   {
     title: "Contact Me",
@@ -89,7 +89,7 @@ export default function Links({ searchQuery }: LinksProps) {
             `}
           >
             <div className="flex items-center space-x-3">
-              <link.icon className="w-5 h-5" />
+              <link.icon className="h-5 w-5" />
               <span className="font-medium">{link.title}</span>
             </div>
           </Link>
