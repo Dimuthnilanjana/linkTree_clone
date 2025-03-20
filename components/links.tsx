@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Twitter, Globe, Linkedin, Mail, Youtube } from "lucide-react";
+import { Github, Twitter, Globe, Linkedin, Mail, Youtube , Whatsapp} from "lucide-react";
 import Link from "next/link";
 
 interface LinksProps {
@@ -43,7 +43,7 @@ const links = [
     title: "Contact Me",
     url: "mailto:dimuthnilanjana,official@gmail.com",
     icon: Mail,
-    style: "gradient"
+    style: "glass"
   }
 ];
 
