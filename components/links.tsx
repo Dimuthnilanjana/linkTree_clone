@@ -37,7 +37,7 @@ const links = [
     title: "YouTube Channel",
     url: "https://youtube.com/@dimuth",
     icon: Youtube,
-    style: "outline" //outline
+    style: "glass" //outline
   },
   {
     title: "Contact Me",
