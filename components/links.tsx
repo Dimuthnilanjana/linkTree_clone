@@ -33,12 +33,7 @@ const links = [
     icon: Linkedin,
     style: "glass"
   },
-  // {
-  //   title: "YouTube Channel",
-  //   url: "https://youtube.com/@dimuth",
-  //   icon: Youtube,
-  //   style: "glass" //outline
-  // },
+ 
   {
     title: "Contact Me",
     url: "mailto:dimuthnilanjana,official@gmail.com",

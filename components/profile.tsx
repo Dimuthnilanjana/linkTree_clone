@@ -40,7 +40,7 @@ export default function Profile() {
         transition={{ delay: 0.3 }}
         className="text-muted-foreground max-w-md mx-auto"
       >
-        Full-stack developer passionate about creating beautiful and functional web experiences. Building the future of the web, one project at a time.
+       UI/UX Engineer passionate about creating beautiful and functional web experiences. Building the future of the web, one project at a time.
       </motion.p>
     </motion.div>
   );
