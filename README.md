@@ -31,7 +31,7 @@ A **modern, minimal, and customizable** Linktree alternative built with **Next.j
 
 ## 🛠️ Tech Stack  
 
-- **Next.js 14** (App Router)  
+- **Next.js 15** (App Router)  
 - **Tailwind CSS**  
 - **Framer Motion** (for animations)  
 
