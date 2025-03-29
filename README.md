@@ -7,7 +7,7 @@ A **modern, minimal, and customizable** Linktree alternative built with **Next.j
 ## 🎯 Features
 
 ✅ **Fully Responsive** – Works seamlessly on all devices  
-✅ **Next.js 14** – Optimized for speed and performance  
+✅ **Next.js 15** – Optimized for speed and performance  
 ✅ **Tailwind CSS** – Simple and scalable styling  
 ✅ **Framer Motion Animations** – Smooth fade-ins & transitions  
 ✅ **Dark Mode Support** – Built-in light/dark mode toggle  
