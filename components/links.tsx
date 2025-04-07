@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { Github, Twitter, Globe, Linkedin, Mail, Youtube } from "lucide-react";
+import { FaBehance,FaDribbble} from "react-icons/fa";
 import Link from "next/link";
 
 interface LinksProps {
@@ -19,6 +20,18 @@ const links = [
     title: "GitHub",
     url: "https://github.com/Dimuthnilanjana",
     icon: Github,
+    style: "outline"
+  },
+  {
+    title: "Behance",
+    url: "https://www.behance.net/dimuthnilanjana",
+    icon: FaBehance,
+    style: "outline"
+  },
+  {
+    title: "Dribble",
+    url: "https://dribbble.com/Dimuthnilanjana",
+    icon: FaDribbble,
     style: "outline"
   },
   {
