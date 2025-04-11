@@ -42,7 +42,7 @@ const links = [
   },
   {
     title: "LinkedIn",
-    url: "https://linkedin.com/in/dimuth",
+    url: "https://www.linkedin.com/in/dimuthnilanjana/",
     icon: Linkedin,
     style: "glass"
   },
