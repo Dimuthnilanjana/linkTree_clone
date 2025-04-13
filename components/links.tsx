@@ -3,6 +3,7 @@
 import { motion } from "framer-motion";
 import { Github, Twitter, Globe, Linkedin, Mail, Youtube } from "lucide-react";
 import { FaBehance,FaDribbble} from "react-icons/fa";
+import { IoVideocam } from "react-icons/io5";
 import Link from "next/link";
 
 interface LinksProps {
@@ -52,7 +53,13 @@ const links = [
     url: "mailto:dimuthnilanjana,official@gmail.com",
     icon: Mail,
     style: "glass" //gradient
-  }
+  },
+  {
+    title: "Shedule A Meeting",
+    url: "https://cal.com/dimuth-nilanjana-ibty0q",
+    icon: Github,
+    style: "outline"
+  },
 ];
 
 const container = {
