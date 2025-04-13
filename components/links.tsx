@@ -57,7 +57,7 @@ const links = [
   {
     title: "Shedule A Meeting",
     url: "https://cal.com/dimuth-nilanjana-ibty0q",
-    icon: Github,
+    icon: IoVideocam,
     style: "outline"
   },
 ];
