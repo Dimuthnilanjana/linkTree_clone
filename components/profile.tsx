@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import Image from "next/image";
+import profileImage from "@/app/assets/avatar.jpg";
 
 export default function Profile() {
   return (
@@ -17,7 +18,7 @@ export default function Profile() {
       >
         <div className="rounded-full overflow-hidden relative w-full h-full bg-gradient-to-b from-white/10 to-white/5 dark:from-black/10 dark:to-black/5">
           <Image
-            src="https://images.unsplash.com/photo-1633332755192-727a05c4013d?w=400&h=400&q=80"
+            src={profileImage}
             alt="Profile"
             fill
             className="object-cover"
