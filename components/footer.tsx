@@ -1,18 +1,39 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
+import { Twitter } from "lucide-react";
 import Link from "next/link";
-import { FaGithub,FaLinkedin  } from "react-icons/fa";
+import { FaGithub, FaLinkedin } from "react-icons/fa";
+import { useState, useEffect } from "react";
 
 const socialLinks = [
-  { icon: FaGithub , url: "https://github.com/dimuth" },
+  { icon: FaGithub, url: "https://github.com/dimuth" },
   { icon: Twitter, url: "https://twitter.com/dimuth" },
-  { icon: FaLinkedin, url: "https://linkedin.com/in/dimuth" }
-  // { icon: Instagram, url: "https://instagram.com/dimuth" }
+  { icon: FaLinkedin, url: "https://linkedin.com/in/dimuth" },
 ];
 
 export default function Footer() {
+  const [currentTime, setCurrentTime] = useState("");
+
+  useEffect(() => {
+    const updateTime = () => {
+      const now = new Date();
+      const timeString = new Intl.DateTimeFormat("en-US", {
+        hour: "numeric",
+        minute: "numeric",
+        second: "numeric",
+        hour12: true,
+        timeZone: "Asia/Colombo",
+      }).format(now);
+      setCurrentTime(timeString);
+    };
+
+    updateTime(); // Initial call
+    const intervalId = setInterval(updateTime, 1000); // Update every second
+
+    return () => clearInterval(intervalId); // Cleanup on unmount
+  }, []);
+
   return (
     <motion.footer
       initial={{ opacity: 0 }}
@@ -43,6 +64,12 @@ export default function Footer() {
           animate={{ scale: [1, 1.4, 1], opacity: [1, 0.6, 1] }}
           transition={{ duration: 1, repeat: Infinity, ease: "easeInOut" }}
         />
+      </div>
+      <div className="text-sm text-muted-foreground flex items-center justify-center gap-2">
+        <p>
+          Asia/Colombo, UTC+5:30:{" "}
+          {currentTime}
+        </p>
       </div>
     </motion.footer>
   );
