@@ -3,12 +3,13 @@
 import { motion } from "framer-motion";
 import { Github, Twitter, Linkedin, Instagram } from "lucide-react";
 import Link from "next/link";
+import { FaGithub,FaLinkedin  } from "react-icons/fa";
 
 const socialLinks = [
-  { icon: Github, url: "https://github.com/dimuth" },
+  { icon: FaGithub , url: "https://github.com/dimuth" },
   { icon: Twitter, url: "https://twitter.com/dimuth" },
-  { icon: Linkedin, url: "https://linkedin.com/in/dimuth" },
-  { icon: Instagram, url: "https://instagram.com/dimuth" }
+  { icon: FaLinkedin, url: "https://linkedin.com/in/dimuth" }
+  // { icon: Instagram, url: "https://instagram.com/dimuth" }
 ];
 
 export default function Footer() {
