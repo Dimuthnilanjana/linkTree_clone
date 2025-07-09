@@ -28,10 +28,9 @@ export default function Footer() {
       setCurrentTime(timeString);
     };
 
-    updateTime(); // Initial call
-    const intervalId = setInterval(updateTime, 1000); // Update every second
-
-    return () => clearInterval(intervalId); // Cleanup on unmount
+    updateTime(); 
+    const intervalId = setInterval(updateTime, 1000); 
+    return () => clearInterval(intervalId); 
   }, []);
 
   return (
